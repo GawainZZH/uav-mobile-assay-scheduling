@@ -82,3 +82,7 @@ The original scientific Python files are copied byte for byte. `PROVENANCE.json`
 maps those files to their frozen hashes. The small `reproduction40` adapter and
 the root command are new release tooling. Some transitive modules contain legacy
 helper functions; no historical benchmark command is invoked by this interface.
+
+## Staggered calendar mechanism
+
+The four-task verification example and exact enumeration are in `calendar41/README.md`. Run `python -B -m calendar41.mechanism --output new-runs/staggered.json`. It demonstrates group-specific normalization and the need for labels when calendars differ, without a numerical optimizer or new performance observations.

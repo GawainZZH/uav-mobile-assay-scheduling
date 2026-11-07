@@ -2,7 +2,7 @@
   "files": {
     ".gitignore": "ca3fb9732901de0d4ca3a9e2594264aca417ed059384510be12e84d3fcd68991",
     "PROVENANCE.json": "d917f5f0bb6f838144f6a6a5a5b088586381a8317486b17c3277d5a09e69e277",
-    "README.md": "e9686c6f1d0fae820206dd8b55bc11832a2d2611c991e81fad5d08933c2f6d47",
+    "README.md": "9b296215129aedf0e27b235be1f470e7b96b093ed598da233ff35c3b38171160",
     "block_flow_solver/__init__.py": "27f9dfd3afea3bb1db2bce8aabb3782c563337f186beafb527a374e07552ffe4",
     "block_flow_solver/bands.py": "21e31e3710a383d178bcfcc9940e682e280b48bc673c0e2fc10c0e63a9bd5ae9",
     "block_flow_solver/domain.py": "55f82ec49c20932ea098b2012f929c316cf06e9764896cb9c21e353458afa967",
@@ -305,6 +305,11 @@
     "tests/test_reproduction40.py": "037256c9e84ead1111e863712afff02132f9bf909306bf839164978d7fb0253a",
     "tools/package_referee75_revision.py": "276c945dd36556d23b383904a92da97dceeda41be777f4283c4958ed288d2608",
     "vehicle_root_ablation/__init__.py": "9d500738a9819be221b8a14634464e54f9f2c01afb4dc6243679b6f97b6f8d9e",
-    "vehicle_root_ablation/model.py": "c343ac4e5eea8b49e189e9b032ee30f60920e01497a922a4a5f0b890a75e211c"
+    "vehicle_root_ablation/model.py": "c343ac4e5eea8b49e189e9b032ee30f60920e01497a922a4a5f0b890a75e211c",
+    "calendar41/__init__.py": "559c95d73ff1d31f0c2ebc6c0791a14da68f085027e06b6d863f85b38e70027b",
+    "calendar41/mechanism.py": "5756ec67326d3c05882a322496988a1df638bc9ada729979bc66b5b986ed5a7f",
+    "calendar41/README.md": "4a9bec1bc1f259f6f8450757662409263e0a62e4158e8c29ebd1d1204b87be42",
+    "tests/test_calendar41.py": "d080d17edf8a9c9853d4b4a77751e8b286341fb1979ac09cd30c7244630c41b4",
+    "data/staggered-calendar/results.json": "ad9c90baab3aa819fd6476bd00c5390a7aa1b4c6f90892a93c7a792411b0a3de"
   }
 }

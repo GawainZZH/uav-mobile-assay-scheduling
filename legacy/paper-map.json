@@ -1,0 +1,188 @@
+{
+  "baseline_tex_count": 35,
+  "observed_active_tex_count": 36,
+  "scope_change": "revision41-staggered-calendars.tex added by parallel root work; new R41 experiment is outside this legacy inventory",
+  "figure_groups": 11,
+  "tables": 4,
+  "tex_inventory": [
+    "manuscript/sample-assay-ts/main.tex",
+    "manuscript/sample-assay-ts/substantive25-claims.tex",
+    "manuscript/sample-assay-ts/revision22-claims.tex",
+    "manuscript/sample-assay-ts/review88-correspondence.tex",
+    "manuscript/sample-assay-ts/review45-extension.tex",
+    "manuscript/sample-assay-ts/substantive25-method.tex",
+    "manuscript/sample-assay-ts/revision40-stock-flow.tex",
+    "manuscript/sample-assay-ts/substantive25-absorption.tex",
+    "manuscript/sample-assay-ts/substantive25-clearance.tex",
+    "manuscript/sample-assay-ts/revision24-repair-theory.tex",
+    "manuscript/sample-assay-ts/substantive25-foundations.tex",
+    "manuscript/sample-assay-ts/review45-computational.tex",
+    "manuscript/sample-assay-ts/revision35-operating-settings.tex",
+    "manuscript/sample-assay-ts/revision40-stock-results.tex",
+    "manuscript/sample-assay-ts/revision25-results.tex",
+    "manuscript/sample-assay-ts/revision26-results.tex",
+    "manuscript/sample-assay-ts/revision24-holdout.tex",
+    "manuscript/sample-assay-ts/referee-evidence21-results.tex",
+    "manuscript/sample-assay-ts/substantive25-results.tex",
+    "manuscript/sample-assay-ts/review45-operational.tex",
+    "manuscript/sample-assay-ts/review45-service.tex",
+    "manuscript/sample-assay-ts/referee-evidence21-operations.tex",
+    "manuscript/sample-assay-ts/revision24-quality-results.tex",
+    "manuscript/sample-assay-ts/service-guard21-results.tex",
+    "manuscript/sample-assay-ts/review45-policy-results.tex",
+    "manuscript/sample-assay-ts/substantive25-stress.tex",
+    "manuscript/sample-assay-ts/review45-appendix-model.tex",
+    "manuscript/sample-assay-ts/appendix-proofs.tex",
+    "manuscript/sample-assay-ts/pooled-method.tex",
+    "manuscript/sample-assay-ts/reassess90-proof.tex",
+    "manuscript/sample-assay-ts/revision41-staggered-calendars.tex",
+    "manuscript/sample-assay-ts/appendix-algorithm.tex",
+    "manuscript/sample-assay-ts/revision40-reference-coordination.tex",
+    "manuscript/sample-assay-ts/review45-appendix-results.tex",
+    "manuscript/sample-assay-ts/revision23-history.tex",
+    "manuscript/sample-assay-ts/revision40-reference-figures.tex"
+  ],
+  "figures": [
+    {
+      "tex": "manuscript/sample-assay-ts/main.tex",
+      "labels": [
+        "fig:coupling"
+      ],
+      "assets": [
+        "review88-scenario-trace.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/substantive25-method.tex",
+      "labels": [
+        "fig:boundary-normalization"
+      ],
+      "assets": [
+        "revision40-boundary-normalization.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/revision40-stock-results.tex",
+      "labels": [
+        "fig:stock-performance"
+      ],
+      "assets": [
+        "revision40-stock-performance.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/revision25-results.tex",
+      "labels": [
+        "fig:revision25-structure"
+      ],
+      "assets": [
+        "revision33-structure.pdf",
+        "revision33-boundary.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/revision24-holdout.tex",
+      "labels": [
+        "fig:revision24-holdout"
+      ],
+      "assets": [
+        "revision39-holdout.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/review45-operational.tex",
+      "labels": [
+        "fig:review88-policies",
+        "tab:reassess90-operating"
+      ],
+      "assets": [
+        "revision33-review45-policy-mechanisms.pdf",
+        "revision33-substantive25-reservation-stress.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/referee-evidence21-operations.tex",
+      "labels": [
+        "fig:referee-service"
+      ],
+      "assets": [
+        "revision33-referee-evidence21-service.pdf",
+        "revision23-promise-calendars.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/referee-evidence21-operations.tex",
+      "labels": [
+        "fig:review88-calendars"
+      ],
+      "assets": [
+        "revision33-service-guard21-calendars.pdf",
+        "revision33-decision-value21-repair.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/revision24-quality-results.tex",
+      "labels": [
+        "fig:revision24-quality"
+      ],
+      "assets": [
+        "revision37-quality-frontier.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/review45-appendix-results.tex",
+      "labels": [
+        "fig:review88-independent",
+        "LastAppendixPage"
+      ],
+      "assets": [
+        "revision33-revision28-review88-independent-inputs.pdf"
+      ]
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/revision40-reference-figures.tex",
+      "labels": [
+        "fig:review88-compression"
+      ],
+      "assets": [
+        "revision33-review88-compression-states.pdf",
+        "revision33-review88-compression-attributes.pdf",
+        "revision33-substantive25-overlap-compression.pdf"
+      ]
+    }
+  ],
+  "tables_map": [
+    {
+      "tex": "manuscript/sample-assay-ts/review45-computational.tex",
+      "labels": [
+        "tab:review88-design",
+        "tab:methods",
+        "tab:review82-inputs"
+      ],
+      "assets": []
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/referee-evidence21-results.tex",
+      "labels": [
+        "tab:review88-overall",
+        "tab:pooled-overall"
+      ],
+      "assets": []
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/review45-appendix-model.tex",
+      "labels": [
+        "tab:notation"
+      ],
+      "assets": []
+    },
+    {
+      "tex": "manuscript/sample-assay-ts/review45-appendix-model.tex",
+      "labels": [
+        "tab:third30-input",
+        "tab:third30-joint"
+      ],
+      "assets": []
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "referee_evidence21_20261021",
+    "root": "results/referee_evidence21_20261021",
+    "selected_files": 298,
+    "selected_bytes": 652444924,
+    "raw_arm_json_count": 146,
+    "raw_arm_json_bytes": 589818663
+  },
+  {
+    "id": "revision22_formal_20261022",
+    "root": "results/revision22_formal_20261022",
+    "selected_files": 473,
+    "selected_bytes": 1520170660,
+    "raw_arm_json_count": 313,
+    "raw_arm_json_bytes": 1462203499
+  },
+  {
+    "id": "revision24_formal_20261023",
+    "root": "results/revision24_formal_20261023",
+    "selected_files": 292,
+    "selected_bytes": 3460007979,
+    "raw_arm_json_count": 189,
+    "raw_arm_json_bytes": 3459211949
+  },
+  {
+    "id": "revision26_boundary_20261023",
+    "root": "results/revision26_boundary_20261023",
+    "selected_files": 23563,
+    "selected_bytes": 1300102774,
+    "raw_arm_json_count": 51,
+    "raw_arm_json_bytes": 1275162692
+  },
+  {
+    "id": "revision30_formal_20261025",
+    "root": "results/revision30_formal_20261025",
+    "selected_files": 8327,
+    "selected_bytes": 765509564,
+    "raw_arm_json_count": 43,
+    "raw_arm_json_bytes": 750116997
+  },
+  {
+    "id": "revision31_last50_20261026",
+    "root": "results/revision31_last50_20261026",
+    "selected_files": 6888,
+    "selected_bytes": 846224538,
+    "raw_arm_json_count": 50,
+    "raw_arm_json_bytes": 826756686
+  },
+  {
+    "id": "revision31_remaining_20261026",
+    "root": "results/revision31_remaining_20261026",
+    "selected_files": 5097,
+    "selected_bytes": 328506328,
+    "raw_arm_json_count": 14,
+    "raw_arm_json_bytes": 309687298
+  },
+  {
+    "id": "revision37_repaired_20261101",
+    "root": "results/revision37_repaired_20261101",
+    "selected_files": 9624,
+    "selected_bytes": 742387510,
+    "raw_arm_json_count": 72,
+    "raw_arm_json_bytes": 730374448
+  },
+  {
+    "id": "revision39_coordination_20261106",
+    "root": "results/revision39_coordination_20261106",
+    "selected_files": 7045,
+    "selected_bytes": 751276768,
+    "raw_arm_json_count": 72,
+    "raw_arm_json_bytes": 747737326
+  },
+  {
+    "id": "revision39_structural_20261106",
+    "root": "results/revision39_structural_20261106",
+    "selected_files": 6261,
+    "selected_bytes": 1500673588,
+    "raw_arm_json_count": 72,
+    "raw_arm_json_bytes": 1485030413
+  },
+  {
+    "id": "review45_nonunit_20261020",
+    "root": "results/review45_nonunit_20261020",
+    "selected_files": 67,
+    "selected_bytes": 105287862,
+    "raw_arm_json_count": 12,
+    "raw_arm_json_bytes": 104945108
+  },
+  {
+    "id": "review45_structure_20261020",
+    "root": "results/review45_structure_20261020",
+    "selected_files": 323,
+    "selected_bytes": 9859281,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "review88_structural_20261019",
+    "root": "results/review88_structural_20261019",
+    "selected_files": 323,
+    "selected_bytes": 9221060,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "review80_fairness_20261020",
+    "root": "results/review80_fairness_20261020",
+    "selected_files": 302,
+    "selected_bytes": 12793451,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "review82_components_20261018",
+    "root": "results/review82_components_20261018",
+    "selected_files": 62,
+    "selected_bytes": 6111888,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "second82_study_v2_20261018",
+    "root": "results/second82_study_v2_20261018",
+    "selected_files": 891,
+    "selected_bytes": 43516991,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "third30_repeat_20261018",
+    "root": "results/third30_repeat_20261018",
+    "selected_files": 790,
+    "selected_bytes": 40024367,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "decision_value21_20261021",
+    "root": "results/decision_value21_20261021",
+    "selected_files": 90,
+    "selected_bytes": 25158463,
+    "raw_arm_json_count": 8,
+    "raw_arm_json_bytes": 4096886
+  },
+  {
+    "id": "decision_value21_v2_20261021",
+    "root": "results/decision_value21_v2_20261021",
+    "selected_files": 123,
+    "selected_bytes": 76480878,
+    "raw_arm_json_count": 42,
+    "raw_arm_json_bytes": 55424037
+  },
+  {
+    "id": "service_guard21_20261021",
+    "root": "results/service_guard21_20261021",
+    "selected_files": 147,
+    "selected_bytes": 95791245,
+    "raw_arm_json_count": 51,
+    "raw_arm_json_bytes": 33741720
+  },
+  {
+    "id": "separator25_formal_20261020",
+    "root": "results/separator25_formal_20261020",
+    "selected_files": 141,
+    "selected_bytes": 208419940,
+    "raw_arm_json_count": 75,
+    "raw_arm_json_bytes": 207782258
+  },
+  {
+    "id": "separator25_scip_formal_20261020",
+    "root": "results/separator25_scip_formal_20261020",
+    "selected_files": 64,
+    "selected_bytes": 394566,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "separator25_joint_formal_20261020",
+    "root": "results/separator25_joint_formal_20261020",
+    "selected_files": 105,
+    "selected_bytes": 137745054,
+    "raw_arm_json_count": 36,
+    "raw_arm_json_bytes": 137215603
+  },
+  {
+    "id": "separator25_joint_remaining_20261020",
+    "root": "results/separator25_joint_remaining_20261020",
+    "selected_files": 111,
+    "selected_bytes": 132740140,
+    "raw_arm_json_count": 42,
+    "raw_arm_json_bytes": 132210074
+  },
+  {
+    "id": "separator25_ablation_20261020",
+    "root": "results/separator25_ablation_20261020",
+    "selected_files": 105,
+    "selected_bytes": 390905518,
+    "raw_arm_json_count": 30,
+    "raw_arm_json_bytes": 390420209
+  },
+  {
+    "id": "algorithm_recovery_validation_20261017",
+    "root": "results/algorithm_recovery_validation_20261017",
+    "selected_files": 956,
+    "selected_bytes": 45491604,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "algorithm_recovery_closure_validation_20261017",
+    "root": "results/algorithm_recovery_closure_validation_20261017",
+    "selected_files": 730,
+    "selected_bytes": 46378030,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  },
+  {
+    "id": "fleet_sample_assay_second_review_20261016",
+    "root": "results/fleet_sample_assay_second_review_20261016",
+    "selected_files": 565,
+    "selected_bytes": 63121879,
+    "raw_arm_json_count": 0,
+    "raw_arm_json_bytes": 0
+  }
+]

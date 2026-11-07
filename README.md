@@ -6,10 +6,13 @@ UAV collections, parked assays, vehicle rendezvous and finite precharged stocks.
 Qualifying temporal boundaries allow block concatenation. Large merged blocks
 can remain difficult for both methods.
 
-This release contains the **24-input stock flow comparison** from the revised
-manuscript. It is the new algorithm's reproducibility component. Older unit-service,
-verified-release and operational comparisons are not bundled here. No manuscript,
-internal referee report, solver license or historical approval chain is included.
+The repository contains the **24-input stock flow comparison** and the staggered
+calendar example. The separately downloadable **legacy scientific evidence**
+contains the archived unit-service, verified-release and operational studies,
+including both 72-arm coordination and structural comparisons. See
+[legacy/README.md](legacy/README.md) for the cohort index and restoration commands.
+These studies use different objectives and service conventions; the index keeps
+the original inputs, failed runs and source versions separate.
 
 ## Environment
 

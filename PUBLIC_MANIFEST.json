@@ -1,8 +1,8 @@
 {
   "files": {
-    ".gitignore": "ca3fb9732901de0d4ca3a9e2594264aca417ed059384510be12e84d3fcd68991",
+    ".gitignore": "2596fc12d73c7303ac17dfb6639e1e5870e26a23c81bf43367ea61a66f0b6b4f",
     "PROVENANCE.json": "d917f5f0bb6f838144f6a6a5a5b088586381a8317486b17c3277d5a09e69e277",
-    "README.md": "9b296215129aedf0e27b235be1f470e7b96b093ed598da233ff35c3b38171160",
+    "README.md": "142d11f40d14d0e7ec08198e849b0b76f898ebec924e7f40a75df2e05310a1b4",
     "block_flow_solver/__init__.py": "27f9dfd3afea3bb1db2bce8aabb3782c563337f186beafb527a374e07552ffe4",
     "block_flow_solver/bands.py": "21e31e3710a383d178bcfcc9940e682e280b48bc673c0e2fc10c0e63a9bd5ae9",
     "block_flow_solver/domain.py": "55f82ec49c20932ea098b2012f929c316cf06e9764896cb9c21e353458afa967",
@@ -310,6 +310,14 @@
     "calendar41/mechanism.py": "5756ec67326d3c05882a322496988a1df638bc9ada729979bc66b5b986ed5a7f",
     "calendar41/README.md": "4a9bec1bc1f259f6f8450757662409263e0a62e4158e8c29ebd1d1204b87be42",
     "tests/test_calendar41.py": "d080d17edf8a9c9853d4b4a77751e8b286341fb1979ac09cd30c7244630c41b4",
-    "data/staggered-calendar/results.json": "ad9c90baab3aa819fd6476bd00c5390a7aa1b4c6f90892a93c7a792411b0a3de"
+    "data/staggered-calendar/results.json": "ad9c90baab3aa819fd6476bd00c5390a7aa1b4c6f90892a93c7a792411b0a3de",
+    "legacy/README.md": "a9c51f9b82de8593d7a8cd099b88f8692357f665033f0bf38d6fc57c14308c90",
+    "legacy/catalog.json.gz": "ffad98258f5f18c2630fdd94b417b9745e0131bd357b06ada91427918e22a43d",
+    "legacy/collections.json": "1806428afe5e2c68d3ac24054197a16518c6279fc203ec0fb3a9f54f2c601e99",
+    "legacy/paper-map.json": "badfea2542462d07ebb615ba07082318acafb6ccc5a8ffc65b5993d1e6f4dfe9",
+    "legacy41/__init__.py": "68c0acf1851768e1e51f975fb04cce7210cfce0ebb235a9acd1e1ec4b5ce4137",
+    "legacy41/store.py": "3e44539af1c561e44b559ade86ea2a17ec65c992b9c52893fda092bddaf72c24",
+    "legacy_evidence.py": "cbf6a05994d99acc7544cf7a77143f655f0e816343611e51979d3f37c9175a22",
+    "tests/test_legacy41.py": "2c72244819d7cf21ffc01d736be71acab4bcbb10890a921bf3a56ed7c82763ea"
   }
 }

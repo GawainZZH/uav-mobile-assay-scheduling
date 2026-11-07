@@ -1,0 +1,75 @@
+{
+  "block_sizes": [
+    16
+  ],
+  "blocks": 1,
+  "candidate_construction": {
+    "assignment_nodes": 17,
+    "native_optimizer_calls": 0,
+    "optimization_objective_used": false,
+    "seconds": 0.01298889983445406
+  },
+  "configuration": "M16",
+  "dimensions": {
+    "F_within_materialization_limit": true,
+    "families": 14893,
+    "stock_arcs": 14893
+  },
+  "final_qualification": {
+    "cuts": [],
+    "maximum_shortest_road": 12,
+    "rule": "joint one-sided sufficient parked cuts",
+    "valid": true
+  },
+  "generator_seconds": 0.016770500224083662,
+  "largest_block": 16,
+  "parameters": {
+    "B": 6,
+    "G": 4,
+    "K": 4,
+    "P": 3,
+    "extended": true,
+    "n": 4,
+    "name": "M16"
+  },
+  "proposed_cuts": 3,
+  "qualification": {
+    "cuts": [
+      {
+        "epoch": 64,
+        "left_clear": 68,
+        "left_margin": -4,
+        "previous_two_sided_valid": false,
+        "right_first": 76,
+        "right_margin": 12,
+        "valid": false
+      },
+      {
+        "epoch": 128,
+        "left_clear": 132,
+        "left_margin": -4,
+        "previous_two_sided_valid": false,
+        "right_first": 139,
+        "right_margin": 11,
+        "valid": false
+      },
+      {
+        "epoch": 192,
+        "left_clear": 196,
+        "left_margin": -4,
+        "previous_two_sided_valid": false,
+        "right_first": 203,
+        "right_margin": 11,
+        "valid": false
+      }
+    ],
+    "maximum_shortest_road": 12,
+    "rule": "joint one-sided sufficient parked cuts",
+    "valid": false
+  },
+  "qualified_cuts": 0,
+  "road_diameter": 12,
+  "seed": 29,
+  "total_stock": 24,
+  "total_tasks": 16
+}

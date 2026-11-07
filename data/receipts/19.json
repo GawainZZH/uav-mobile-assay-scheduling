@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "calendar_seed": 29,
+    "case": "RSC_P4_s29",
+    "configuration": "P4",
+    "method": "F"
+  },
+  "assessment": {
+    "continue": true,
+    "eligible": true,
+    "par2": 420,
+    "solved": false
+  },
+  "cause": null,
+  "error": null,
+  "raw_sha256": "a5cc90d0fadf249c60c4e561193776da047befff699a3697a3fc0f79bb8205b6",
+  "retained_sha256": "13e0e38101f6f418add0077dac549285ac056d441092dd0046683d094837f451",
+  "returncode": 0,
+  "sampled_peak_bytes": 576180224,
+  "samples": 802,
+  "seconds_through_hash": 81.37638830021024
+}

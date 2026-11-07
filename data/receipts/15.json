@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "calendar_seed": 29,
+    "case": "RSC_P2_s29",
+    "configuration": "P2",
+    "method": "F"
+  },
+  "assessment": {
+    "continue": true,
+    "eligible": true,
+    "par2": 9.162754400167614,
+    "solved": true
+  },
+  "cause": null,
+  "error": null,
+  "raw_sha256": "4e8b5d009ead093f2ced9183fa0d7c74cfdb3974d93c10a7dcd449ae0370a07d",
+  "retained_sha256": "50075912e3a45ecc568db8d055c1465d3fb141dff8b80f0bafdc66e6f0ae32d9",
+  "returncode": 0,
+  "sampled_peak_bytes": 352174080,
+  "samples": 93,
+  "seconds_through_hash": 9.162754400167614
+}

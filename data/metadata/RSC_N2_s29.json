@@ -1,0 +1,118 @@
+{
+  "block_sizes": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "blocks": 4,
+  "candidate_construction": {
+    "assignment_nodes": 9,
+    "native_optimizer_calls": 0,
+    "optimization_objective_used": false,
+    "seconds": 0.013781899586319923
+  },
+  "configuration": "N2",
+  "dimensions": {
+    "F_within_materialization_limit": true,
+    "families": 96,
+    "stock_arcs": 516
+  },
+  "final_qualification": {
+    "cuts": [
+      {
+        "epoch": 64,
+        "joint_normalization": true,
+        "left_clear": 50,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": true,
+        "right_first": 78,
+        "right_margin": 14,
+        "valid": true
+      },
+      {
+        "epoch": 128,
+        "joint_normalization": true,
+        "left_clear": 114,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": true,
+        "right_first": 140,
+        "right_margin": 12,
+        "valid": true
+      },
+      {
+        "epoch": 192,
+        "joint_normalization": true,
+        "left_clear": 178,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": false,
+        "right_first": 202,
+        "right_margin": 10,
+        "valid": true
+      }
+    ],
+    "maximum_shortest_road": 12,
+    "rule": "joint one-sided sufficient parked cuts",
+    "valid": true
+  },
+  "generator_seconds": 0.01576239988207817,
+  "largest_block": 2,
+  "parameters": {
+    "B": 6,
+    "G": 4,
+    "K": 4,
+    "P": 3,
+    "extended": false,
+    "n": 2,
+    "name": "N2"
+  },
+  "proposed_cuts": 3,
+  "qualification": {
+    "cuts": [
+      {
+        "epoch": 64,
+        "joint_normalization": true,
+        "left_clear": 50,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": true,
+        "right_first": 78,
+        "right_margin": 14,
+        "valid": true
+      },
+      {
+        "epoch": 128,
+        "joint_normalization": true,
+        "left_clear": 114,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": true,
+        "right_first": 140,
+        "right_margin": 12,
+        "valid": true
+      },
+      {
+        "epoch": 192,
+        "joint_normalization": true,
+        "left_clear": 178,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": false,
+        "right_first": 202,
+        "right_margin": 10,
+        "valid": true
+      }
+    ],
+    "maximum_shortest_road": 12,
+    "rule": "joint one-sided sufficient parked cuts",
+    "valid": true
+  },
+  "qualified_cuts": 3,
+  "road_diameter": 12,
+  "seed": 29,
+  "total_stock": 24,
+  "total_tasks": 8
+}

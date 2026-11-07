@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "calendar_seed": 11,
+    "case": "RSC_M16_s11",
+    "configuration": "M16",
+    "method": "S"
+  },
+  "assessment": {
+    "continue": true,
+    "eligible": true,
+    "par2": 420,
+    "solved": false
+  },
+  "cause": null,
+  "error": null,
+  "raw_sha256": "66ce6056ba040ba7a73ca94ade7872265e2bd92f56996ed7eb7caa706126b778",
+  "retained_sha256": "d569411bd4aa9c3dcf1ee12f588d1b6d1be1b8386f4ce2407929a8ce2a0012f7",
+  "returncode": 0,
+  "sampled_peak_bytes": 1108631552,
+  "samples": 1690,
+  "seconds_through_hash": 173.20311059989035
+}

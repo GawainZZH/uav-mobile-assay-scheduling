@@ -1,0 +1,5 @@
+numpy==2.5.0
+scipy==1.18.0
+highspy==1.15.1
+pyscipopt==6.2.1
+psutil==7.1.3

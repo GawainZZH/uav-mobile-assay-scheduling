@@ -1,0 +1,1267 @@
+{
+  "audit_sha256": "36efcce7bb308dbcabdf04c38ba65281a8169fdfedd37395e6b5af02d4859ee0",
+  "comparison_complete": true,
+  "fleet": {
+    "methods": {
+      "F": {
+        "cases": 6,
+        "mean_PAR2": 13.77856321648384,
+        "proven_optima": 6
+      },
+      "S": {
+        "cases": 6,
+        "mean_PAR2": 420.0,
+        "proven_optima": 0
+      }
+    },
+    "positive": true,
+    "ratio_F_over_S": 0.0328061028963901
+  },
+  "independent_audit_pass": true,
+  "memory": {
+    "F": {
+      "max_MiB": 1663.29296875,
+      "median_MiB": 370.525390625
+    },
+    "S": {
+      "max_MiB": 1135.90625,
+      "median_MiB": 762.75
+    }
+  },
+  "methods": {
+    "F": {
+      "cases": 24,
+      "mean_PAR2": 118.4740881875041,
+      "proven_optima": 18
+    },
+    "S": {
+      "cases": 24,
+      "mean_PAR2": 365.7397495375092,
+      "proven_optima": 4
+    }
+  },
+  "observed_arms": 48,
+  "overall_advantage": true,
+  "planned_arms": 48,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "pricing_note": "Oracle query time includes kernel building; component durations must not be added indiscriminately",
+  "provisional_if_incomplete_or_unaudited": false,
+  "pyscipopt": "6.2.1",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "ratio_F_over_S": 0.3239300304036374,
+  "rows": [
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_A_s11",
+        "configuration": "A",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 0,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1056,
+        "lower": 1089,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1089.0,
+        "upper": 1089
+      },
+      "par2": 17.148465499747545,
+      "sampled_peak_bytes": 434450432,
+      "seconds": 17.148465499747545,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_A_s11",
+        "configuration": "A",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 1,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1056,
+        "lower": 1068,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1067.4285714285716,
+        "upper": 1096
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 790786048,
+      "seconds": 167.4624980003573,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_A_s29",
+        "configuration": "A",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 2,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1020,
+        "lower": 1032,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1031.4285714285716,
+        "upper": 1084
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 789233664,
+      "seconds": 167.90723280003294,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_A_s29",
+        "configuration": "A",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 3,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1020,
+        "lower": 1052,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1052.0,
+        "upper": 1052
+      },
+      "par2": 12.545960300136358,
+      "sampled_peak_bytes": 411377664,
+      "seconds": 12.545960300136358,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_G3_s11",
+        "configuration": "G3",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 4,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1056,
+        "lower": 1089,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1089.0,
+        "upper": 1089
+      },
+      "par2": 10.138352799694985,
+      "sampled_peak_bytes": 376418304,
+      "seconds": 10.138352799694985,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_G3_s11",
+        "configuration": "G3",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 5,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1056,
+        "lower": 1069,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1068.4529019980976,
+        "upper": 1104
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 654831616,
+      "seconds": 166.95907989982516,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_G3_s29",
+        "configuration": "G3",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 6,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1020,
+        "lower": 1032,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1031.4285714285716,
+        "upper": 1084
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 761786368,
+      "seconds": 167.23365110019222,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_G3_s29",
+        "configuration": "G3",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 7,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1020,
+        "lower": 1052,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1052.0,
+        "upper": 1052
+      },
+      "par2": 12.133806999772787,
+      "sampled_peak_bytes": 390090752,
+      "seconds": 12.133806999772787,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_G6_s11",
+        "configuration": "G6",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 8,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1056,
+        "lower": 1089,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1089.0,
+        "upper": 1089
+      },
+      "par2": 17.260324799921364,
+      "sampled_peak_bytes": 432173056,
+      "seconds": 17.260324799921364,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_G6_s11",
+        "configuration": "G6",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 9,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1056,
+        "lower": 1068,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1067.4285714285734,
+        "upper": 1104
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1086791680,
+      "seconds": 167.29954720009118,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_G6_s29",
+        "configuration": "G6",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 10,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1020,
+        "lower": 1032,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1031.4285714285716,
+        "upper": 1180
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 880975872,
+      "seconds": 167.72089299978688,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_G6_s29",
+        "configuration": "G6",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 11,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1020,
+        "lower": 1052,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1052.0,
+        "upper": 1052
+      },
+      "par2": 13.44446889963001,
+      "sampled_peak_bytes": 449167360,
+      "seconds": 13.44446889963001,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_P2_s11",
+        "configuration": "P2",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 12,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1130,
+        "lower": 1178,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1178.0,
+        "upper": 1178
+      },
+      "par2": 9.779676999896765,
+      "sampled_peak_bytes": 378724352,
+      "seconds": 9.779676999896765,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_P2_s11",
+        "configuration": "P2",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 13,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1130,
+        "lower": 1178,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1178.0,
+        "upper": 1178
+      },
+      "par2": 41.25676680030301,
+      "sampled_peak_bytes": 559349760,
+      "seconds": 41.25676680030301,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_P2_s29",
+        "configuration": "P2",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 14,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1091,
+        "lower": 1139,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1139.0,
+        "upper": 1139
+      },
+      "par2": 102.4942538999021,
+      "sampled_peak_bytes": 585310208,
+      "seconds": 102.4942538999021,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_P2_s29",
+        "configuration": "P2",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 15,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1091,
+        "lower": 1139,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1139.0,
+        "upper": 1139
+      },
+      "par2": 9.162754400167614,
+      "sampled_peak_bytes": 352174080,
+      "seconds": 9.162754400167614,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_P4_s11",
+        "configuration": "P4",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 16,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 982,
+        "lower": 1027,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1027.0,
+        "upper": 1101
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 814653440,
+      "seconds": 167.06295019993559,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_P4_s11",
+        "configuration": "P4",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 17,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 982,
+        "lower": 998,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 998.0,
+        "upper": 1174
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 895201280,
+      "seconds": 167.56417299993336,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_P4_s29",
+        "configuration": "P4",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 18,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 952,
+        "lower": 968,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 968.0,
+        "upper": 1040
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1060933632,
+      "seconds": 167.87297110026702,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_P4_s29",
+        "configuration": "P4",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 19,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 952,
+        "lower": 997,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 997.0,
+        "upper": 1144
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 576180224,
+      "seconds": 81.37638830021024,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_K2_s11",
+        "configuration": "K2",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 20,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 543,
+        "lower": 575,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 575.0,
+        "upper": 575
+      },
+      "par2": 16.77982209995389,
+      "sampled_peak_bytes": 375267328,
+      "seconds": 16.77982209995389,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_K2_s11",
+        "configuration": "K2",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 21,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 543,
+        "lower": 575,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 575.0,
+        "upper": 575
+      },
+      "par2": 102.19804430007935,
+      "sampled_peak_bytes": 579383296,
+      "seconds": 102.19804430007935,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_K2_s29",
+        "configuration": "K2",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 22,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 540,
+        "lower": 572,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 572.0,
+        "upper": 572
+      },
+      "par2": 131.80492389993742,
+      "sampled_peak_bytes": 547553280,
+      "seconds": 131.80492389993742,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_K2_s29",
+        "configuration": "K2",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 23,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 540,
+        "lower": 572,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 572.0,
+        "upper": 572
+      },
+      "par2": 23.879318499937654,
+      "sampled_peak_bytes": 402608128,
+      "seconds": 23.879318499937654,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_K6_s11",
+        "configuration": "K6",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 24,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1566,
+        "lower": 1606,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1606.0,
+        "upper": 1606
+      },
+      "par2": 6.561981200240552,
+      "sampled_peak_bytes": 291897344,
+      "seconds": 6.561981200240552,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_K6_s11",
+        "configuration": "K6",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 25,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1566,
+        "lower": 1578,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1577.4285714285716,
+        "upper": 1806
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 869322752,
+      "seconds": 168.07441970007494,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_K6_s29",
+        "configuration": "K6",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 26,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1470,
+        "lower": 1482,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1481.4285714285716,
+        "upper": 1710
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1037082624,
+      "seconds": 168.1681241998449,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_K6_s29",
+        "configuration": "K6",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 27,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1470,
+        "lower": 1510,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1510.0,
+        "upper": 1510
+      },
+      "par2": 12.523396000266075,
+      "sampled_peak_bytes": 386957312,
+      "seconds": 12.523396000266075,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_N2_s11",
+        "configuration": "N2",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 28,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 543,
+        "lower": 575,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 575.0,
+        "upper": 575
+      },
+      "par2": 8.079099700320512,
+      "sampled_peak_bytes": 301953024,
+      "seconds": 8.079099700320512,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_N2_s11",
+        "configuration": "N2",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 29,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 543,
+        "lower": 558,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 557.6666666666667,
+        "upper": 575
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 584859648,
+      "seconds": 167.30828580027446,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_N2_s29",
+        "configuration": "N2",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 30,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 543,
+        "lower": 567,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 567.0,
+        "upper": 575
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 589176832,
+      "seconds": 166.9650131999515,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_N2_s29",
+        "configuration": "N2",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 31,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 543,
+        "lower": 575,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 575.0,
+        "upper": 575
+      },
+      "par2": 9.71749860001728,
+      "sampled_peak_bytes": 312946688,
+      "seconds": 9.71749860001728,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_N6_s11",
+        "configuration": "N6",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 32,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1569,
+        "lower": 1623,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1623.0,
+        "upper": 1623
+      },
+      "par2": 115.02979589998722,
+      "sampled_peak_bytes": 676122624,
+      "seconds": 115.02979589998722,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_N6_s11",
+        "configuration": "N6",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 33,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1569,
+        "lower": 1581,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1580.5913621262457,
+        "upper": 1813
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 808816640,
+      "seconds": 168.67743049981073,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_N6_s29",
+        "configuration": "N6",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 34,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1473,
+        "lower": 1486,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1485.8677558764575,
+        "upper": 1717
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 846143488,
+      "seconds": 167.9872123003006,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_N6_s29",
+        "configuration": "N6",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 35,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1473,
+        "lower": 1517,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1517.0,
+        "upper": 1517
+      },
+      "par2": 12.830868999939412,
+      "sampled_peak_bytes": 460533760,
+      "seconds": 12.830868999939412,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_B4_s11",
+        "configuration": "B4",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 36,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1056,
+        "lower": 1096,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1096.0,
+        "upper": 1096
+      },
+      "par2": 7.735040700063109,
+      "sampled_peak_bytes": 355139584,
+      "seconds": 7.735040700063109,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_B4_s11",
+        "configuration": "B4",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 37,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1056,
+        "lower": 1068,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1067.4285714285716,
+        "upper": 1120
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 790040576,
+      "seconds": 167.11610889993608,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_B4_s29",
+        "configuration": "B4",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 38,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1020,
+        "lower": 1032,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1031.4285714285716,
+        "upper": 1076
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 786489344,
+      "seconds": 168.05146580003202,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_B4_s29",
+        "configuration": "B4",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 39,
+      "interval": {
+        "closed": true,
+        "inherited_floor": 1020,
+        "lower": 1060,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1060.0,
+        "upper": 1060
+      },
+      "par2": 8.627484100405127,
+      "sampled_peak_bytes": 364875776,
+      "seconds": 8.627484100405127,
+      "solved": true,
+      "status": "optimal"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_M16_s11",
+        "configuration": "M16",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 40,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1056,
+        "lower": 1056,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1056.0,
+        "upper": 1322
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1602994176,
+      "seconds": 168.3334439001046,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_M16_s11",
+        "configuration": "M16",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 41,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1056,
+        "lower": 1056,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": null,
+        "upper": 1322
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1108631552,
+      "seconds": 173.20311059989035,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_M16_s29",
+        "configuration": "M16",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 42,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1020,
+        "lower": 1020,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": null,
+        "upper": 1283
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1105543168,
+      "seconds": 170.97354389959946,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_M16_s29",
+        "configuration": "M16",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 43,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1020,
+        "lower": 1052,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1052.0,
+        "upper": 1283
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1744089088,
+      "seconds": 170.08953690016642,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_M24_s11",
+        "configuration": "M24",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 44,
+      "interval": {
+        "closed": false,
+        "lower": 0,
+        "upper": 1965
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 219471872,
+      "seconds": 2.7471806001849473,
+      "solved": false,
+      "status": "resource_limit"
+    },
+    {
+      "arm": {
+        "calendar_seed": 11,
+        "case": "RSC_M24_s11",
+        "configuration": "M24",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 45,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1566,
+        "lower": 1590,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1590.0000000000007,
+        "upper": 1965
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1190260736,
+      "seconds": 169.1131325000897,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_M24_s29",
+        "configuration": "M24",
+        "method": "S"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 46,
+      "interval": {
+        "closed": false,
+        "inherited_floor": 1470,
+        "lower": 1494,
+        "proof_scope": "analytic lower plus native numerical integer bound and independently validated physical upper",
+        "quantum": 1,
+        "raw_native_bound": 1494.0,
+        "upper": 1863
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 1191084032,
+      "seconds": 168.1795785999857,
+      "solved": false,
+      "status": "unresolved"
+    },
+    {
+      "arm": {
+        "calendar_seed": 29,
+        "case": "RSC_M24_s29",
+        "configuration": "M24",
+        "method": "F"
+      },
+      "cause": null,
+      "eligible": true,
+      "index": 47,
+      "interval": {
+        "closed": false,
+        "lower": 0,
+        "upper": 1863
+      },
+      "par2": 420,
+      "sampled_peak_bytes": 219697152,
+      "seconds": 3.313413300085813,
+      "solved": false,
+      "status": "resource_limit"
+    }
+  ],
+  "source_sha256": {
+    "tests/test_stock_scale_analysis.py": "87e69616957bd479160184508f76502529e1e6c97712b19995e938deec45aa88",
+    "tools/render_stock_scale_results.py": "5d936a5f99abc8c3e8242bf1ffc9ca750797bb58488da23d3c7deee3ff73f3de",
+    "tools/stock_scale_analysis.py": "d1f5c9cc1829234faeab5ff773792317b124692812aaa72d66e7edfa736808b8"
+  },
+  "spatial": {
+    "methods": {
+      "F": {
+        "cases": 6,
+        "mean_PAR2": 148.10614286665805,
+        "proven_optima": 4
+      },
+      "S": {
+        "cases": 6,
+        "mean_PAR2": 303.9585034500342,
+        "proven_optima": 2
+      }
+    },
+    "positive": true,
+    "ratio_F_over_S": 0.4872577709970344
+  }
+}

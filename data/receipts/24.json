@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "calendar_seed": 11,
+    "case": "RSC_K6_s11",
+    "configuration": "K6",
+    "method": "F"
+  },
+  "assessment": {
+    "continue": true,
+    "eligible": true,
+    "par2": 6.561981200240552,
+    "solved": true
+  },
+  "cause": null,
+  "error": null,
+  "raw_sha256": "d897f120857c3f2fce35d841eddfba8dea17b46a085ce56fae46ca948ff0b748",
+  "retained_sha256": "24c4a1a87a6c3e1764a9b3686dec8a353fa8c9dcba24b1894417bd99238f620e",
+  "returncode": 0,
+  "sampled_peak_bytes": 291897344,
+  "samples": 67,
+  "seconds_through_hash": 6.561981200240552
+}

@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "calendar_seed": 29,
+    "case": "RSC_A_s29",
+    "configuration": "A",
+    "method": "S"
+  },
+  "assessment": {
+    "continue": true,
+    "eligible": true,
+    "par2": 420,
+    "solved": false
+  },
+  "cause": null,
+  "error": null,
+  "raw_sha256": "3e9d49fbde618d4ef6a5b97a35093ea72cc391e1158ef019b034d633c9048a1c",
+  "retained_sha256": "a10e0f6eb534a49e84bdeff4d91ea925a165645ca5f4ae57d11e1983bcc4c6a9",
+  "returncode": 0,
+  "sampled_peak_bytes": 789233664,
+  "samples": 1659,
+  "seconds_through_hash": 167.90723280003294
+}

@@ -1,0 +1,72 @@
+{
+  "block_sizes": [
+    4,
+    4
+  ],
+  "blocks": 2,
+  "candidate_construction": {
+    "assignment_nodes": 9,
+    "native_optimizer_calls": 0,
+    "optimization_objective_used": false,
+    "seconds": 0.006587199866771698
+  },
+  "configuration": "K2",
+  "dimensions": {
+    "F_within_materialization_limit": true,
+    "families": 96,
+    "stock_arcs": 288
+  },
+  "final_qualification": {
+    "cuts": [
+      {
+        "epoch": 64,
+        "joint_normalization": true,
+        "left_clear": 50,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": true,
+        "right_first": 78,
+        "right_margin": 14,
+        "valid": true
+      }
+    ],
+    "maximum_shortest_road": 12,
+    "rule": "joint one-sided sufficient parked cuts",
+    "valid": true
+  },
+  "generator_seconds": 0.008771500084549189,
+  "largest_block": 4,
+  "parameters": {
+    "B": 6,
+    "G": 4,
+    "K": 2,
+    "P": 3,
+    "extended": false,
+    "n": 4,
+    "name": "K2"
+  },
+  "proposed_cuts": 1,
+  "qualification": {
+    "cuts": [
+      {
+        "epoch": 64,
+        "joint_normalization": true,
+        "left_clear": 50,
+        "left_margin": 14,
+        "normalization_side": "before",
+        "previous_two_sided_valid": true,
+        "right_first": 78,
+        "right_margin": 14,
+        "valid": true
+      }
+    ],
+    "maximum_shortest_road": 12,
+    "rule": "joint one-sided sufficient parked cuts",
+    "valid": true
+  },
+  "qualified_cuts": 1,
+  "road_diameter": 12,
+  "seed": 11,
+  "total_stock": 24,
+  "total_tasks": 8
+}

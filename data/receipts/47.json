@@ -1,0 +1,22 @@
+{
+  "arm": {
+    "calendar_seed": 29,
+    "case": "RSC_M24_s29",
+    "configuration": "M24",
+    "method": "F"
+  },
+  "assessment": {
+    "continue": true,
+    "eligible": true,
+    "par2": 420,
+    "solved": false
+  },
+  "cause": null,
+  "error": null,
+  "raw_sha256": "66d616594a58bfe0576007632908e026da1f7cb962b8c52c5809e20d255f53a9",
+  "retained_sha256": "91d916e3e8cbcd60d0aa6985bd179224b71b8fe6e8adad62330169c8f607abaf",
+  "returncode": 0,
+  "sampled_peak_bytes": 219697152,
+  "samples": 34,
+  "seconds_through_hash": 3.313413300085813
+}
